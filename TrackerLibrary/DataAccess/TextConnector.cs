@@ -109,5 +109,14 @@ namespace TrackerLibrary.DataAccess
         {
             return PeopleFile.FullFilePath().LoadFile().ConvertToPersonModels();
         }
+
+        /// <summary>
+        /// Returns a list of all teams from a text file
+        /// </summary>
+        /// <returns>List of teams information</returns>
+        public List<TeamModel> GetTeam_All()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

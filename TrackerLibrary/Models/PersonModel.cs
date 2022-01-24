@@ -29,12 +29,12 @@ namespace TrackerLibrary.Models
         /// <summary>
         /// The email address of the person.
         /// </summary>
-        public string Email { get; set; }
+        public string EmailAddress { get; set; }
 
         /// <summary>
         /// The phone number of the person.
         /// </summary>
-        public string PhoneNumber { get; set; }
+        public string CellphoneNumber { get; set; }
 
         /// <summary>
         /// The first name and the last name combined as one string.

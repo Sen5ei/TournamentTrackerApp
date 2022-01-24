@@ -76,5 +76,7 @@
     <Build Include="dbo\StoredProcedures\spTeam_GetByTournament.sql" />
     <Build Include="dbo\StoredProcedures\spTeams_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spTeamMembers_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spTeams_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spTeamMembers_GetByTeam.sql" />
   </ItemGroup>
 </Project>
