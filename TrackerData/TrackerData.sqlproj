@@ -81,5 +81,7 @@
     <Build Include="dbo\StoredProcedures\spTournaments_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spTournamentPrizes_Insert.sql" />
     <Build Include="dbo\StoredProcedures\spTournamentEntries_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spMatchups_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spMatchupEntries_Insert.sql" />
   </ItemGroup>
 </Project>
