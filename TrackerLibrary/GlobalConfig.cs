@@ -21,7 +21,6 @@ namespace TrackerLibrary
 
         public static void InitializeConnections(DatabaseType db)
         {
-
             switch (db)
             {
                 case DatabaseType.Sql:

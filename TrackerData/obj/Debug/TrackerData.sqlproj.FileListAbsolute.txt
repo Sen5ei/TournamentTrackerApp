@@ -2,9 +2,5 @@ C:\Users\ognje\TournamentTrackerApp\TrackerData\bin\Debug\TrackerData.dacpac
 C:\Users\ognje\TournamentTrackerApp\TrackerData\bin\Debug\TrackerData.dll
 C:\Users\ognje\TournamentTrackerApp\TrackerData\bin\Debug\TrackerData.pdb
 C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\TrackerData.sqlproj.AssemblyReference.cache
-C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\Model.xml
-C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\refactor.xml
-C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\postdeploy.sql
-C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\predeploy.sql
 C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\TrackerData.dll
 C:\Users\ognje\TournamentTrackerApp\TrackerData\obj\Debug\TrackerData.pdb
