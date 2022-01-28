@@ -101,6 +101,7 @@ namespace TrackerLibrary
                 subject = "Yoyu have a bye week this round";
 
                 body.AppendLine("Enjoy your round off!");
+                body.AppendLine("<br>");
                 body.AppendLine("~Tournament Tracker");
             }
 

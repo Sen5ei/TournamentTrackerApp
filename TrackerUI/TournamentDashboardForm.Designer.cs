@@ -42,7 +42,7 @@ namespace TrackerUI
             this.headerLabel.AutoSize = true;
             this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.headerLabel.Location = new System.Drawing.Point(114, 19);
+            this.headerLabel.Location = new System.Drawing.Point(112, 9);
             this.headerLabel.Name = "headerLabel";
             this.headerLabel.Size = new System.Drawing.Size(385, 50);
             this.headerLabel.TabIndex = 13;
@@ -50,6 +50,7 @@ namespace TrackerUI
             // 
             // loadExistingTournamentDropdown
             // 
+            this.loadExistingTournamentDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.loadExistingTournamentDropdown.FormattingEnabled = true;
             this.loadExistingTournamentDropdown.Location = new System.Drawing.Point(121, 159);
             this.loadExistingTournamentDropdown.Name = "loadExistingTournamentDropdown";
@@ -75,7 +76,7 @@ namespace TrackerUI
             this.loadTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loadTournamentButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loadTournamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.loadTournamentButton.Location = new System.Drawing.Point(207, 215);
+            this.loadTournamentButton.Location = new System.Drawing.Point(206, 215);
             this.loadTournamentButton.Name = "loadTournamentButton";
             this.loadTournamentButton.Size = new System.Drawing.Size(198, 45);
             this.loadTournamentButton.TabIndex = 21;
@@ -91,9 +92,9 @@ namespace TrackerUI
             this.createTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createTournamentButton.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createTournamentButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.createTournamentButton.Location = new System.Drawing.Point(177, 312);
+            this.createTournamentButton.Location = new System.Drawing.Point(176, 333);
             this.createTournamentButton.Name = "createTournamentButton";
-            this.createTournamentButton.Size = new System.Drawing.Size(259, 63);
+            this.createTournamentButton.Size = new System.Drawing.Size(260, 70);
             this.createTournamentButton.TabIndex = 27;
             this.createTournamentButton.Text = "Create Tournament";
             this.createTournamentButton.UseVisualStyleBackColor = true;

@@ -109,26 +109,39 @@ namespace TrackerUI
         {
             // Validate data
             decimal fee = 0;
-
             bool feeAcceptable = decimal.TryParse(entryFeeValue.Text, out fee);
 
-            if (!feeAcceptable)
+            if (!feeAcceptable || fee < 0)
             {
-                MessageBox.Show("You need to enter a valid Entry Fee.",
-                    "Invalid Fee",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
+                MessageBox.Show("You need to enter a valid Entry Fee.", "Invalid Fee");
                 return;
             }
 
             // Create our tourmanemt model
-            TournamentModel tm = new TournamentModel
+            TournamentModel tm = new TournamentModel();
+
+            if (tournamentNameValue.Text.Length > 0)
             {
-                TournamentName = tournamentNameValue.Text,
-                EntryFee = fee,
-                Prizes = selectedPrizes,
-                EnteredTeams = selectedTeams
-            };
+                tm.TournamentName = tournamentNameValue.Text;
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid Tournament Name.", "Invalid Tournament Name");
+                return;
+            }
+
+            tm.EntryFee = fee;
+            tm.Prizes = selectedPrizes;
+
+            if (selectedTeams.Count < 2)
+            {
+                MessageBox.Show("Please register at least two teams in the tournament", "Invalid Team Count");
+                return;
+            }
+            else
+            {
+                tm.EnteredTeams = selectedTeams;
+            }
 
             // Wire our matchups
             TournamentLogic.CreateRounds(tm);
