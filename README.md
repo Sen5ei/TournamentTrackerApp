@@ -17,11 +17,11 @@ Featured technologies used include:
 ## Database diagram
 
 <div style="text-align: center;">
-    <img width="500" height="500" src="./Screenshots/database-diagram.png">
+    <img src="./Screenshots/database-diagram.png">
 </div>
 
 ## Demo Video
 
 <div style="text-align: center;">
-    <img width="500" height="500" src="./Screenshots/tournamentTracker-demo.gif">
+    <img src="./Screenshots/tournamentTracker-demo.gif">
 </div>
