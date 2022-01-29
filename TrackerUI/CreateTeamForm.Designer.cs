@@ -292,6 +292,7 @@ namespace TrackerUI
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreateTeamForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Team";
             this.addNewMemberGroupbox.ResumeLayout(false);
             this.addNewMemberGroupbox.PerformLayout();

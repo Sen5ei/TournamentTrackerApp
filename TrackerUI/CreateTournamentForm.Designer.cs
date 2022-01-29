@@ -68,6 +68,7 @@ namespace TrackerUI
             this.tournamentNameValue.Name = "tournamentNameValue";
             this.tournamentNameValue.Size = new System.Drawing.Size(335, 35);
             this.tournamentNameValue.TabIndex = 10;
+            this.tournamentNameValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tournamentNameLabel
             // 
@@ -301,6 +302,7 @@ namespace TrackerUI
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "CreateTournamentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Tournament";
             this.ResumeLayout(false);
             this.PerformLayout();
